@@ -1,0 +1,24 @@
+{
+  "name": "tailwindcss_course",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "build-css":"tailwindcss-cli build -i ./src/tailwind.css -o ./public/tailwind.css" 
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/maheshvadecha/TailwindCss_course.git"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/maheshvadecha/TailwindCss_course/issues"
+  },
+  "homepage": "https://github.com/maheshvadecha/TailwindCss_course#readme",
+  "devDependencies": {
+    "tailwindcss-cli": "^0.1.2"
+  }
+}
